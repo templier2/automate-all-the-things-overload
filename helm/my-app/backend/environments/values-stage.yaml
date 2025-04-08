@@ -4,7 +4,7 @@ redis_host: automation-andrei-stage.redis.cache.windows.net
 
 deployment:
   image:
-    tag: 0
+    tag: 1
   replicas: 1
 
 secret:
