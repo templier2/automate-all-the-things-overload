@@ -11,7 +11,7 @@ const app = express();
 // Create a Redis client
 const redisClient = new Redis({
   host: process.env.REDIS_HOST, // Replace with the name of the Redis service
-  port: 6379, // Replace with the Redis port if it's different
+  port: 6380, // Replace with the Redis port if it's different
   password: process.env.REDIS_PASS, // Replace with your Redis password
   // When using Istio, TLS is already provided by the envoys. We remove it so it doesn't cause any conflicts.
   // tls: {}, // Password protected AWS ElastiCache clusters require TLS encryption. 
