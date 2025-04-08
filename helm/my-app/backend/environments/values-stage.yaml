@@ -1,6 +1,6 @@
 environment: stage
 
-redis_host:  # This value was modified by the deploy-infra pipeline
+redis_host: automation-andrei-stage.redis.cache.windows.net
 
 deployment:
   image:
