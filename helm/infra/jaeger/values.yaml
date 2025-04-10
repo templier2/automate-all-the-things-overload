@@ -85,6 +85,9 @@ storage:
     port: 9042
     # Change this value to false if you want to avoid starting the
     # -cassandra-schema Job
+    # add creation keyspace in Cassandra
+    schema:
+      create: true
     schemaJobEnabled: true
     tls:
       enabled: false
