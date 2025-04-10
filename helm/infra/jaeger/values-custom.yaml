@@ -6,7 +6,7 @@ query:
     ingressClassName: webapprouting.kubernetes.azure.com
 
     hosts: 
-      - ""
+      - "jaeger.k8s-tests2.tst"
     pathType: Prefix
 
 # Allow recieving traces from Istio
