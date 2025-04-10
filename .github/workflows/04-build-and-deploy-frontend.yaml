@@ -1,5 +1,9 @@
 name: 04-Build & deploy my-app-frontend image
 
+permissions:
+  id-token: write # This is required for requesting the JWT
+  contents: write  # This is required for actions/checkout and actions/pull
+
 on:
   workflow_dispatch:
   push:
