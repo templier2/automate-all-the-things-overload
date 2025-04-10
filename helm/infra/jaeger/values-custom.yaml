@@ -20,7 +20,7 @@ cassandra:
   persistence:
     # To enable persistence, please see the documentation for the Cassandra chart
     enabled: true
-    storageClass: "gp2"
+    storageClass: default
     size: 5Gi
   config:
     cluster_size: 1
